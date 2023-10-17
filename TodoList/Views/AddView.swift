@@ -21,7 +21,7 @@ struct AddView: View {
                 TextField("Type something here ...", text: $textFieldText)
                     .padding(.horizontal)
                     .frame(height: 55)
-                    .background(Color(red: 235/255, green: 235/255, blue: 235/255))
+                    .background(Color(UIColor.secondarySystemBackground))
                 .cornerRadius(10)
                 Button( action: saveButtonPressed, label: {
                     Text("Save".uppercased())
